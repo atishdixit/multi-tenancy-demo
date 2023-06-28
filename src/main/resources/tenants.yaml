@@ -1,0 +1,17 @@
+datasources:
+  tenants:
+    default_tenant:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/default_database
+      username: pcdbuser
+      password: pcdbuser
+    tenantId1:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/tenant_database_1
+      username: pcdbuser
+      password: pcdbuser
+    tenantId2:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/tenant_database_2
+      username: pcdbuser
+      password: pcdbuser
